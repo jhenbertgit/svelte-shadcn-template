@@ -1,38 +1,26 @@
-# create-svelte
+# Beginner-Friendly Sveltekit App
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+- This will install a ready to use Sveltekit app configured with Shadcn for Svelte.
 
-## Creating a project
+## Easy install and no configuration needed
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Run this command into your terminal
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+```sh
 
-# create a new project in my-app
-npm create svelte@latest my-app
+npx mugna-svelte-shadcn
+
 ```
 
-## Developing
+- Navigate to your project directory via `cd` command and run `npm install` to install dependencies.
+- Then run `npm run dev` to start the development server.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Happy Coding! :smiley:
 
-```bash
-npm run dev
+## About Sveltekit
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- More information [here](https://kit.svelte.dev/docs/introduction)
 
-## Building
+## About Shadcn-Svelte
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- More information [here](https://www.shadcn-svelte.com/docs)
