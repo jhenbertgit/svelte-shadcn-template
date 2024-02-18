@@ -9,16 +9,13 @@
 
   $: currentRoute = $page.url.pathname;
 
-  const isActive = (route: string) => {
-    return route === currentRoute;
-  };
+  // const isActive = (route: string) => {
+  //   return route === currentRoute;
+  // };
 </script>
 
 {#each routes as route}
-  <a
-    data-sveltekit-reload
-    href={route.url}
-    class={isActive(route.url) ? "font-bold" : ""}
+  <a href={route.url} class:font-bold={route.url === currentRoute}
     >{route.label.toUpperCase()}</a
   >
 {/each}
