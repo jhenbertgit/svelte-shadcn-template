@@ -1,15 +1,13 @@
-# Beginner-Friendly Sveltekit App
+# Beginner-Friendly SvelteKit App
 
-- This will install a ready to use Sveltekit app configured with Shadcn for Svelte.
+- This will install a SvelteKit App configured with Shadcn-UI for Svelte 5.
 
 ## Easy install and no configuration needed
 
 - Run this command into your terminal
 
-```sh
-
-npx mugna-svelte-shadcn
-
+```bash
+npx mugna-svelte5-shadcn
 ```
 
 - Navigate to your project directory via `cd` command and run `npm install` to install dependencies.
@@ -17,7 +15,13 @@ npx mugna-svelte-shadcn
 
 - Happy Coding! :smiley:
 
-## About Sveltekit
+Please refer to this [GitHub](https://github.com/jhenbertgit/svelte-shadcn-template#readme) repository for more information.
+
+## About Svelte 5
+
+- More information [here](https://svelte.dev/)
+
+## About SvelteKit
 
 - More information [here](https://kit.svelte.dev/docs/introduction)
 
