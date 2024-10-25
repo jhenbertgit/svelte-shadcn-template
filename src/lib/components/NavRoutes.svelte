@@ -1,9 +1,13 @@
 <script lang="ts">
   import { page } from "$app/stores";
 
-  export let routes: Routes[] = [];
+  interface Props {
+    routes?: Routes[];
+  }
 
-  $: currentRoute = $page.url.pathname;
+  let { routes = [] }: Props = $props();
+
+  let currentRoute = $derived($page.url.pathname);
 </script>
 
 {#each routes as route}

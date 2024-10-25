@@ -5,20 +5,22 @@
 </script>
 
 <Container
-  ><h1 class="font-bold text-2xl text-center mt-7">Welcome to SvelteKit</h1>
+  ><h1 class="font-bold text-2xl text-center mt-7">Welcome to Mugna Svelte</h1>
   <p class="text-center">
-    Shandcn for Svelte is also configured and dark mode toggle is ready
+    A pre-configured boilerplate with Svelte 5 and Shadcn UI, complete with a
+    ready-to-use dark mode toggle.
   </p>
   <div class="flex flex-col items-center mt-7">
     <Button
       on:click={() =>
-        toast("Congrats!, you are now using Shadcn", {
-          description: "Shadcn build for Svelte",
+        toast("Congrats!, you are now using Shadcn UI", {
+          description: "Svelte 5 with Shadcn UI",
           action: {
             label: "Close",
             onClick: () => console.log("Close"),
           },
-        })}>Test Click</Button
-    >
-  </div></Container
->
+        })}
+      >Test Click
+    </Button>
+  </div>
+</Container>

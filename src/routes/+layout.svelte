@@ -4,9 +4,12 @@
   import { MainNav } from "$lib";
 
   import "../app.pcss";
+  /** @type {{children?: import('svelte').Snippet}} */
+  let { children } = $props();
 </script>
 
 <ModeWatcher />
 <Toaster />
 <MainNav />
-<main><slot /></main>
+
+<main>{@render children?.()}</main>
